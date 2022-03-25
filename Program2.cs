@@ -23,7 +23,7 @@ namespace name
             Console.Write("Массив: ");
             for (int i = 0; i < Z.Length; i++)
             {
-                Z[i] = rnd.Next(0, 35);
+                Z[i] = rnd.Next(-15, 15);
                 Console.Write(Z[i] + " ");
             }
             Console.WriteLine();
